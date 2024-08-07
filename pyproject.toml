@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "record-transcribe-project"
+version = "0.1.0"
+description = ""
+authors = ["dhruv chauhan <hi@dhruvc.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai-whisper = {git = "https://github.com/openai/whisper.git"}
+sounddevice = "^0.4.7"
+numpy = "^2.0.1"
+scipy = "^1.14.0"
+keyboard = "^0.13.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
